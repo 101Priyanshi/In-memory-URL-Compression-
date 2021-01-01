@@ -23,11 +23,11 @@ Hence insertion takes more time for a higher number of N as compared to retrieva
 The worst case scenario for search operation will be the height of the tree, which is O(logN),
 hence time complexity for search operation is O(logN) where N is the number of nodes in the
 tree.
-### Limitations
+## Limitations
 Since the height has to be maintained in AVL trees frequent rotations are done which inturn
 will increase the pointer overhead which even tends to some negligible extra space for very
 big inputs.
-### Further enhancements
+## Further enhancements
 To approach for increasing the reduction of url size above 50% .
 Transformation of the input prior to storing i.e. URL shortening can be used to avoid large
 data storage problems.
